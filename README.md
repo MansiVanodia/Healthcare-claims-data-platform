@@ -126,3 +126,6 @@ The dashboard includes:
 ## Disclaimer
 
 This project uses entirely synthetic data for educational and portfolio purposes. It does not contain real patient information.
+## Power BI Dashboard Preview
+
+![Healthcare Claims Analytics Dashboard](dashboard/dashboard_preview.png)
