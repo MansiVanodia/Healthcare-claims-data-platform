@@ -1,0 +1,9 @@
+
+healthcare_claims:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: "{{ env_var('HEALTHCARE_DB_PATH') }}"
+      schema: main
+      threads: 4
