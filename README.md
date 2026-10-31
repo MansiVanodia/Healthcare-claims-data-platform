@@ -36,7 +36,9 @@ This project processes synthetic healthcare insurance claims to support:
 | Development | VS Code, Git |
 
 ## Data Architecture
+### Architecture Diagram
 
+[View Healthcare Claims Architecture Diagram](docs/architecture.md
 ```text
 Synthetic Claims & Members
             |
