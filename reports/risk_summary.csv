@@ -1,0 +1,4 @@
+risk_level,total_claims,total_amount,avg_amount
+LOW,4384,17777958.61,4055.19
+MEDIUM,1015,9079540.71,8945.36
+HIGH,1,8217.33,8217.33

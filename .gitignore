@@ -1,0 +1,24 @@
+
+# Python virtual environment
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# DuckDB database
+*.duckdb
+*.duckdb.wal
+
+# dbt generated files
+**/target/
+**/dbt_packages/
+**/logs/
+
+# Local logs and temporary files
+logs/
+*.log
+.env
+.env.*
+
+# Power BI temporary files
+*.pbitmp

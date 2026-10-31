@@ -1,0 +1,37 @@
+
+version: 2
+
+models:
+  - name: dim_members
+    description: "Member dimension with one row per member."
+    columns:
+      - name: member_id
+        data_tests:
+          - unique
+          - not_null
+
+  - name: fact_claims
+    description: "Medical insurance claims fact table."
+    columns:
+      - name: claim_id
+        data_tests:
+          - unique
+          - not_null
+
+      - name: member_id
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_members')
+                field: member_id
+
+      - name: claim_amount
+        data_tests:
+          - not_null
+
+      - name: claim_status
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['APPROVED', 'REJECTED', 'PENDING']

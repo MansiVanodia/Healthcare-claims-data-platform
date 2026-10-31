@@ -1,0 +1,2 @@
+claim_id,member_id,policy_id,provider_id,claim_date,claim_amount,claim_status,record_type
+C005301,M000001,P000001,PR001,2026-10-31,-500,Approved,INSERT

@@ -1,0 +1,2 @@
+claim_id,member_id,policy_id,provider_id,claim_date,claim_amount,claim_status,member_region,high_amount_flag,multiple_claims_same_day_flag,duplicate_billing_flag,risk_score,risk_level
+C005306,M00533,P00533,H0079,2026-10-31,8217.33,PENDING,Alberta,1,1,0,2,HIGH
